@@ -1,0 +1,76 @@
+line {
+  stroke-linecap: round;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  fill: black;
+}
+
+#hours {
+  fill: white;
+}
+
+#mins {
+  fill: white;
+}
+
+#secs {
+  fill: red;
+}
+
+#hr {
+  font-size: 20;
+  font-weight: bold;
+  font-family: Colfax;
+  text-length: 3;
+  text-anchor: middle;
+  x: 280;
+  y: 288;
+  fill: white;
+}
+
+.hr_icon {
+  x: "268";
+  y: "250";
+  width: "24";
+  height: "24";
+  href: "icons/stat_hr_solid_24px.png" ;
+  fill: red;
+}
+
+#date {
+  font-size: 23;
+  font-family: Colfax;
+  font-weight: bold;
+  text-length: 6;
+  text-anchor: start;
+  x: 60%;
+  y: 52%;
+  fill: white;
+}
+
+#day {
+  font-size: 23;
+  font-family: Colfax-Light;
+  text-length: 3;
+  text-anchor: start;
+  x: 60%;
+  y: 45%;
+  fill: white;
+}
+
+.battery_icon {
+  x: 9;
+  y: 9;
+  width: 33;
+  height: 20;
+  href: "icons/battery.png";  
+}
+#battery {
+  height: 12;
+  x: 13;
+  y: 13;
+  opacity: .75;
+}
